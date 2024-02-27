@@ -1,3 +1,5 @@
+-- requested to find any items in bin 231F between 2023-08-02 and 2023-08-04
+
 use 'maximo database'
 
 Select ib.location as [Location], ib.itemnum as [Item Number], i.description as [Description], ib.lotnum as [Lot Number], ib.binnum as [Bin Number], ib.curbal [Balance], ib.eaudittimestamp as [Balance Date]
